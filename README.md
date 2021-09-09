@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The state of this repo is that the necessary SPA is bootstrapped -- we expect the confirmation page (unforutnately upon refresh) displays a Rokt Asset
+
+TODO:
+
+- integrate fully with SPAs so that no hard refresh is required
 
 ## Available Scripts
 
@@ -68,4 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # rokt-react-provider-example
