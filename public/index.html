@@ -24,44 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <!-- Main Snippet -->
-    <script type="text/javascript">
-      (function (r, o, k, t, n, e, w, a, _) {
-        r._ROKT_ = n;
-        r[n] = r[n] || {
-          id: t,
-          h: w,
-          lc: [],
-          it: new Date(),
-          onLoaded: function (c) {
-            r[n].lc.push(c);
-          },
-        };
-        a = o.createElement("script");
-        a.type = "text/javascript";
-        a.async = !0;
-        a.src = k;
-        if (e) {
-          a.integrity = e;
-          a.crossOrigin = "anonymous";
-        }
-        _ = o.getElementsByTagName("script")[0];
-        _.parentNode.insertBefore(a, _);
-      })(
-        window,
-        document,
-        "https://wsdk.stage.rokt.com/integrations/snippet.js",
-        "2939646200598515208_a5f3983416194c6bb4445262a84b76c8",
-        "rokt"
-      );
 
-      rokt.onLoaded(function (rokt) {
-        rokt.setAttributes({
-          // Recommended
-          email: "joe.dirt@clean.com",
-        });
-      });
-    </script>
     <title>React App</title>
   </head>
   <body>
